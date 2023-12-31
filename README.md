@@ -82,28 +82,75 @@ Creating a scheduling algorithm simulation project involves implementing various
 
 ##### First-Come, First-Serve (FCFS)
 
-- Average Waiting Time: X units
-- Average Turnaround Time: Y units
+- P1 Turnaround Time = 172, Waiting Time = 126 
+- P2 Turnaround Time = 179, Waiting Time = 135 
+- P3 Turnaround Time = 191, Waiting Time = 117 
+- P4 Turnaround Time = 196, Waiting Time = 145 
+- P5 Turnaround Time = 146, Waiting Time = 125 
+- P6 Turnaround Time = 149, Waiting Time = 125 
+- P7 Turnaround Time = 154, Waiting Time = 118 
 
-##### Shortest Job Next (SJN)
+==> Average Turnaround Time = 169.571, Average Waiting Time = 127.286
 
-- Average Waiting Time: X units
-- Average Turnaround Time: Y units
+##### Shortest Job First (SJF)
+
+- P1 Turnaround Time = 10, Waiting Time = 0 
+- P2 has not finished 
+- P3 has not finished 
+- P4 has not finished 
+- P5 Turnaround Time = 193, Waiting Time = 92 
+- P6 Turnaround Time = 187, Waiting Time = 63 
+- P7 Turnaround Time = 192, Waiting Time = 11 
+
+==> Average Turnaround Time = 145.5, Average Waiting Time = 41.5
+
+  ##### Shortest Remaining Time First (SRTF)
+
+- P1 Turnaround Time = 1, Waiting Time = 0 
+- P2 Turnaround Time = 8, Waiting Time = 0 
+- P3 has not finished 
+- P4 has not finished 
+- P5 Turnaround Time = 194, Waiting Time = 70 
+- P6 Turnaround Time = 184, Waiting Time = 30 
+- P7 Turnaround Time = 188, Waiting Time = 77 
+
+==> Average Turnaround Time = 115 , Average Waiting Time = 35.4
 
 ##### Round Robin (RR)
 
-- Average Waiting Time: X units
-- Average Turnaround Time: Y units
+- P1 Turnaround Time = 191, Waiting Time = 145 
+- P2 Turnaround Time = 179, Waiting Time = 138 
+- P3 Turnaround Time = 183, Waiting Time = 138 
+- P4 Turnaround Time = 196, Waiting Time = 146 
+- P5 Turnaround Time = 169, Waiting Time = 124 
+- P6 Turnaround Time = 188, Waiting Time = 134 
+- P7 Turnaround Time = 173, Waiting Time = 137 
+
+==> Average Turnaround Time = 182.714, Average Waiting Time = 137.429
 
 ##### Preemptive Priority Scheduling with aging = 5
 
-- Average Waiting Time: X units
-- Average Turnaround Time: Y units
+- P1 Turnaround Time = 184, Waiting Time = 138 
+- P2 Turnaround Time = 199, Waiting Time = 161 
+- P3 Turnaround Time = 195, Waiting Time = 121 
+- P4 Turnaround Time = 170, Waiting Time = 118 
+- P5 Turnaround Time = 155, Waiting Time = 126 
+- P6 Turnaround Time = 149, Waiting Time = 125 
+- P7 Turnaround Time = 159, Waiting Time = 123 
+
+==> Average Turnaround Time = 173, Average Waiting Time = 130.286
 
 ##### Non-preemptive Priority Scheduling with aging = 5
 
-- Average Waiting Time: X units
-- Average Turnaround Time: Y units
+- P1 Turnaround Time = 172, Waiting Time = 126
+- P2 Turnaround Time = 186, Waiting Time = 142
+- P3 Turnaround Time = 197, Waiting Time = 124
+- P4 Turnaround Time = 175, Waiting Time = 123
+- P5 Turnaround Time = 146, Waiting Time = 125
+- P6 Turnaround Time = 149, Waiting Time = 125
+- P7 Turnaround Time = 154, Waiting Time = 118 
+
+==> Average Turnaround Time = 168.429, Average Waiting Time = 126.143
   
 # Authors
 
