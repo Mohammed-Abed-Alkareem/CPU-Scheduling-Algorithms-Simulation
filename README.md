@@ -50,7 +50,7 @@ Creating a scheduling algorithm simulation project involves implementing various
 
 
 ## Output
-
+assuming last process terminates after the last time being in the executing state
 ### Scenario 1
 
 #### Gantt Charts
