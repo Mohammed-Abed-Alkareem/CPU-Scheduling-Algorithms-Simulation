@@ -55,24 +55,28 @@ Creating a scheduling algorithm simulation project involves implementing various
 
 ##### First-Come, First-Serve (FCFS)
 
-![FCFS Gantt Chart](link/to/fcfs_gantt_chart.png)
+![FCFS Gantt Chart](/Gantt_Charts/First_Come_First_Served_1.png)
 
-##### Shortest Job Next (SJN)
+##### Shortest Job First (SJF)
 
-![SJN Gantt Chart](link/to/sjn_gantt_chart.png)
+![SJN Gantt Chart](/Gantt_Charts/Shortest_Job_First_1.png)
+
+##### Shortest Remaining Time First (SRTF)
+
+![SJN Gantt Chart](/Gantt_Charts/Shortest_Remaining_Time_First_1.png)
 
 
 ##### Round Robin (RR)
 
-![Round Robin Gantt Chart](link/to/rr_gantt_chart.png)
+![Round Robin Gantt Chart](/Gantt_Charts/Round_Robin_1.png)
 
 ##### Preemptive Priority Scheduling with aging = 5
 
-![Preemptive Priority Scheduling Gantt Chart](link/to/priority_gantt_chart.png)
+![Preemptive Priority Scheduling Gantt Chart](/Gantt_Charts/Preemptive_Priority_Scheduling_with_aging_1.png)
 
 ##### Non-preemptive Priority Scheduling with aging = 5
 
-![Non-preemptive Priority Scheduling Gantt Chart](link/to/priority_gantt_chart.png)
+![Non-preemptive Priority Scheduling Gantt Chart](/Gantt_Charts/Non-preemptive_Priority_Scheduling_with_aging_1.png)
 
 #### Performance Metrics
 
